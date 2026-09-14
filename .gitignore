@@ -32,3 +32,6 @@ desktop.ini
 
 # Scraped data output (user-generated, not source code)
 scraped_data*.json
+
+# Personal documents (not for the public repo)
+CV_PROJECT_SUMMARY.md
