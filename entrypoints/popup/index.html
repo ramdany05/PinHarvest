@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PinHarvest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <span class="icon">🔍</span>
+      <h1>PinHarvest</h1>
+    </div>
+
+    <div class="status-badge" id="status-badge">
+      <span class="dot" id="status-dot"></span>
+      <span id="status-text">Status: Idle</span>
+    </div>
+
+    <div class="counter-box">
+      <span class="count" id="item-count">0</span>
+      <span class="label">Items Extracted</span>
+    </div>
+
+    <div class="actions">
+      <button id="btn-inspect" class="btn btn-primary">Start Inspecting</button>
+      <button id="btn-stop" class="btn btn-danger" style="display: none;">Stop Scraping</button>
+    </div>
+
+    <div class="export-group">
+      <button id="btn-export-csv" class="btn btn-secondary" disabled>Export CSV</button>
+      <button id="btn-export-json" class="btn btn-secondary" disabled>Export JSON</button>
+    </div>
+
+    <button id="btn-clear" class="btn btn-link">Clear Extracted Data</button>
+
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script type="module" src="main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+.output/
+stats.html
+
+# WXT auto-generated files (types, tsconfig)
+.wxt/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Scraped data output (user-generated, not source code)
+scraped_data*.json
